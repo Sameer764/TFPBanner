@@ -9,8 +9,8 @@ function BannerContainer() {
                 <div className='container1'>
                     <div className='inner-container1'>
                         <div className='mode-of-class'>
-                            <img src='/src/assets/img/Star 4.svg' />
-                            <img src='/src/assets/img/Star 5.svg' />
+                            <img className="star-image" src='/src/assets/img/starImg.svg' />
+                            {/* <img src='/src/assets/img/Star 5.svg' /> */}
                             <p className='mode-of-class-txt'>
                                 Offline Classroom
                             </p>

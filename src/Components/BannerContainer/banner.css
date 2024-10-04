@@ -46,9 +46,10 @@
         display: flex;
         width: 45.082vw;
         /* height: 440px; */
-        background-color: #292C33;
-        margin-top: 1.639vw;
-        margin-left: 1.639vw;
+        /* background-color: #292C33; */
+        /* margin-top: 1.639vw;
+        margin-left: 1.639vw; */
+        padding: 1.639vw;
         justify-content: space-between;
     }
 
@@ -87,6 +88,10 @@
         background-color: #fde68a;
     }
 
+    .star-image {
+        width: 1.639vw;
+    }
+
     .mode-of-class-txt {
         /* margin-top: 0.656vw; */
         /* line-height: 0.984vw; */
@@ -104,6 +109,7 @@
         margin-top: 0.328vw;
         margin-left: 1.639vw;
     } */
+
 
     .inner-container1-logoTitle {
         display: flex;
