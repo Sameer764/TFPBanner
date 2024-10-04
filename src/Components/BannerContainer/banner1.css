@@ -1,7 +1,6 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
     }
 
     @font-face {
@@ -28,123 +27,101 @@
     .Banner-container {
         display: flex;
         flex-direction: row;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
-        border-radius: 2.459vw;
-        padding: 2.459vw;
-        gap: 2.459vw;
+        border-radius: 40px;
+        padding: 40px;
+        gap: 40px;
         background-color: #14171F;
-    }
-
-    .subcontainer {
-        display: flex;
-        border-radius: 1.639vw;
-        background: #292C33;
     }
 
     .container1 {
         display: flex;
-        width: 45.082vw;
-        /* height: 440px; */
+        width: 45vw;
+        height: 70vh;
+        border-radius: 20px;
         background-color: #292C33;
-        margin-top: 1.639vw;
-        margin-left: 1.639vw;
-        justify-content: space-between;
     }
-
-
 
     .inner-container1 {
         display: flex;
-        flex-direction: column;
-        width: 20.328vw;
-        gap: 3.279vw;
-        /* height: 400px; */
-        /* margin-top: 1.639vw;
-        margin-left: 1.639vw; */
-        /* justify-content: space-between; */
+        flex-direction: row;
+        width: 19.3vw;
+        height: 63.2vh;
+        margin-top: 20px;
+        margin-left: 20px;
+        justify-content: space-between;
 
     }
 
-    /* .inner-contaier1-title {
+    .inner-contaier1-title {
         display: flex;
         flex-direction: column;
-        width: 19.672vw;
-        height: 280px;
-        gap: 3.279vw;
+        width: 18.7vw;
+        height: 44.3vh;
+        gap: 40px;
 
-    } */
+    }
 
     .mode-of-class {
         display: flex;
         flex-direction: row;
-        row-gap: 0.328vw;
-        width: 12.131vw;
-        /* height: 28px; */
-        border-radius: 0.492vw;
-        padding: 0.328vw 1.639vw 0.328vw 1.639vw;
+        row-gap: 6px;
+        width: 11.56vw;
+        height: 4.43vh;
+        border-radius: 6px;
+        padding: 4px 20px 4px 20px;
         background-color: #fde68a;
     }
 
     .mode-of-class-txt {
-        /* margin-top: 0.656vw; */
-        /* line-height: 0.984vw; */
+        margin-top: 8px;
+        line-height: 12px;
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 0.82vw;
+        font-size: 10px;
         letter-spacing: 2%;
         color: #d97706;
-        white-space: nowrap;
     }
 
-    /* .image {
-        display: flexbox;
+    .image {
+        display: block;
         height: 20px;
-        margin-top: 0.328vw;
-        margin-left: 1.639vw;
-    } */
+    }
 
     .inner-container1-logoTitle {
         display: flex;
-        /* height: 17.377vw; */
+        height: 33.5vh;
         flex-direction: column;
-        gap: 1.639vw;
+        gap: 20px;
     }
 
     .logo {
         display: flex;
         flex-direction: row;
-        width: 12.787vw;
-        /* height: 24px; */
+        width: 12.1vh;
+        height: 3.8vh;
     }
 
     .logo-txt {
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 0.902vw;
-        /* line-height: 1.148vw; */
+        font-size: 11px;
+        line-height: 14px;
         color: #fafafa;
-        width: 10.328vw;
-        margin-top: 0.492vw;
-        margin-left: 2.377vw;
-        /* height: 14px; */
-    }
-
-    .logo-heading {
-        font-family: Gilroy-Medium;
-        font-size: 3.934vw;
-        font-weight: 400;
-        line-height: 3.934vw;
-        letter-spacing: 4%;
+        width: 126px;
+        margin-top: 6px;
+        margin-left: 29.18px;
+        height: 14px;
     }
 
     .inner-container2 {
         display: flex;
-        width: 20.328vw;
-        /* height: 400px; */
-        /* margin-top: 1.639vw;
-        margin-left: 1.639vw; */
-        gap: 0.611vw;
+        width: 19.37vw;
+        height: 63vh;
+        margin-top: 20px;
+        margin-left: 20px;
+        gap: 7px;
         flex-direction: column;
     }
 
@@ -153,7 +130,7 @@
         display: flex;
         width: auto;
         flex-direction: row;
-        gap: 0.561vw;
+        gap: 7px;
     }
 
     .row img {
@@ -162,28 +139,29 @@
 
     .container2 {
         display: flex;
-        width: 45.082vw;
-        /* height: 440px; */
-        /* border-radius: 1.639vw; */
+        width: 43vw;
+        height: 70vh;
+        border-radius: 20px;
         flex-direction: column;
-        gap: 1.639vw;
+        gap: 3.636vw;
     }
 
     .title {
         display: flex;
         justify-content: center;
-        width: 45.082vw;
-        /* height: 116px; */
+        width: 43vw;
+        height: 18.3vh;
         flex-direction: column;
-        gap: 0.656vw;
+        gap: 8px;
     }
 
     h2 {
+        height: 8.2vh;
         font-weight: 400;
         font-size: 3.14vw;
         color: #faf8fc;
         font-family: Gilroy-Medium;
-        line-height: 4.262vw;
+        line-height: 8.2vh;
         letter-spacing: 4%;
 
     }
@@ -191,89 +169,88 @@
     .title-txt {
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 1.148vw;
-        /* line-height: 1.148vw; */
+        font-size: 1.5vw;
+        line-height: 4.4vh;
         letter-spacing: 2%;
-        /* height: 56px; */
+        height: 8.8vh;
         color: #faf8fc;
-
     }
 
     .features {
         display: flex;
-        width: 39.59vw;
-        /* height: 168px; */
-        gap: 0.984vw;
+        width: 37.7vw;
+        height: 26.5vh;
+        gap: 2.18vw;
         flex-direction: column;
     }
 
     .list-of-features {
         display: flex;
         flex-direction: row;
-        /* height: 48px; */
-        width: 24.59vw;
-        gap: 0.984vw;
+        height: 7.6vh;
+        width: 23.43vw;
+        gap: 12px;
 
     }
 
     .list-box {
         display: flex;
-        border-radius: 2.623vw;
-        gap: 0.656vw;
-        padding-top: 0.984vw;
-        padding-right: 1.967vw;
-        padding-bottom: 0.984vw;
-        padding-left: 1.967vw;
+        border-radius: 32px;
+        gap: 8px;
+        padding-top: 12px;
+        padding-right: 24px;
+        padding-bottom: 12px;
+        padding-left: 24px;
         background-color: #292c33;
     }
 
     .list-txt {
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 1.148vw;
-        line-height: 1.967vw;
+        font-size: 14px;
+        line-height: 24px;
         letter-spacing: 2%;
-        /* height: 24px; */
+        height: 24px;
         color: #faf8fc;
         white-space: nowrap;
     }
 
     .more-details {
         display: flex;
-        width: 41.393vw;
-        /* height: 84px; */
-        gap: 1.639vw;
+        width: 39.45vw;
+        height: 13.2vh;
+        gap: 20px;
         flex-direction: column;
     }
 
     button {
         display: flex;
-        width: 19.59vw;
-        /* height: 48px; */
-        border-radius: 0.492vw;
+        width: 18.6vw;
+        height: 7.6vh;
+        border-radius: 6px;
         background-color: #3940A0;
-        padding-top: 0.984vw;
-        padding-right: 5.902vw;
-        padding-bottom: 0.984vw;
-        padding-left: 5.902vw;
+        padding-top: 12px;
+        padding-right: 72px;
+        padding-bottom: 12px;
+        padding-left: 72px;
         border: none;
     }
 
     .button-txt {
 
-        /* line-height: 1.967vw; */
+        line-height: 24px;
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 1.311vw;
+        font-size: 16px;
         letter-spacing: 2%;
         color: #ffff;
     }
 
     .more-details-txt {
-        /* line-height: 1.967vw; */
+        line-height: 24px;
         font-family: Gilroy-Medium;
         font-weight: 400;
-        font-size: 1.311vw;
+        font-size: 0.625rem;
         letter-spacing: 2%;
         color: #faf8fc
     }

@@ -1,18 +1,16 @@
 import './banner.css'
+import './bannerResponsive.css'
 import { data } from './data'
 function BannerContainer() {
 
     return (
         <div className='Banner-container'>
-            <div className='container1 '>
-                <div className='inner-container1'>
-                    <div className='inner-contaier1-title'>
+            <div className=' subcontainer'>
+                <div className='container1'>
+                    <div className='inner-container1'>
                         <div className='mode-of-class'>
-                            <div className='image'>
-                                <img src='/src/assets/img/Star 4.svg' width="16.47" height="16.47" style={{ marginTop: '4px', marginLeft: '15px' }} />
-                                <img src='/src/assets/img/Star 5.svg' />
-                            </div>
-
+                            <img src='/src/assets/img/Star 4.svg' />
+                            <img src='/src/assets/img/Star 5.svg' />
                             <p className='mode-of-class-txt'>
                                 Offline Classroom
                             </p>
@@ -24,24 +22,26 @@ function BannerContainer() {
                                 </div>
                                 <p className='logo-txt'> Programming Pathshala</p>
                             </div>
-                            <h2>Tech  Fellowship Program</h2>
+                            <h2 className="logo-heading">Tech  Fellowship Program</h2>
+                        </div>
+
+                    </div>
+                    <div className='inner-container2'>
+                        <div className='row'>
+                            <img src='/src/assets/img/Frame 21073.svg' />
+                            <img src='/src/assets/img/Frame 21074.svg' />
+                        </div>
+                        <div className='row'>
+                            <img src='/src/assets/img/Frame 21074 (1).svg' />
+                            <img src='/src/assets/img/Frame 21074 (2).svg' />
+                        </div>
+                        <div className='row'>
+                            <img src='/src/assets/img/Frame 21075.svg' />
+                            <img src='/src/assets/img/Frame 21076.svg' />
                         </div>
                     </div>
                 </div>
-                <div className='inner-container2'>
-                    <div className='row'>
-                        <img src='/src/assets/img/Frame 21073.svg' />
-                        <img src='/src/assets/img/Frame 21074.svg' />
-                    </div>
-                    <div className='row'>
-                        <img src='/src/assets/img/Frame 21074 (1).svg' />
-                        <img src='/src/assets/img/Frame 21074 (2).svg' />
-                    </div>
-                    <div className='row'>
-                        <img src='/src/assets/img/Frame 21075.svg' />
-                        <img src='/src/assets/img/Frame 21076.svg' />
-                    </div>
-                </div>
+
             </div>
             <div className='container2'>
                 <div className='title'>

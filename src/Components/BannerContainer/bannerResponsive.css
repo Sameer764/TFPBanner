@@ -1,0 +1,147 @@
+@media only screen and (max-width: 600px) {
+    .Banner-container {
+        flex-direction: column;
+        border-radius: 5.97vw;
+        padding: 3.582vw;
+        gap: 3.582vw;
+
+    }
+
+    .subcontainer {
+        width: 92.836vw;
+        border-radius: 3.582vw;
+    }
+
+    .container1 {
+        width: 86.397vw;
+        margin-top: 3.054vw;
+        margin-left: 3.054vw;
+        justify-content: space-between;
+    }
+
+    .inner-container1 {
+        gap: 3.054vw;
+        width: 43.045vw;
+        /* height: 42.687vw; */
+    }
+
+    .mode-of-class {
+        width: 22.606vw;
+        border-radius: 0.916vw;
+        padding: 0.612vw 3.054vw 0.612vw 3.054vw;
+        gap: 0.612vw;
+    }
+
+    .mode-of-class-txt {
+        /* width: 14.328vw; */
+        white-space: nowrap;
+        font-size: 1.525vw;
+        font-family: Gilroy-Bold;
+        white-space: nowrap;
+    }
+
+    .inner-container1-logoTitle {
+        width: 42.985vw;
+        gap: 3.054vw;
+    }
+
+    .logo {
+        width: 23.812vw;
+
+    }
+
+    .logo-txt {
+        font-size: 1.716vw;
+        font-weight: 400;
+        width: auto;
+        margin-top: 1.03vw;
+        margin-left: 4.454vw;
+    }
+
+    .logo-heading {
+        font-size: 7.328vw;
+        line-height: 7.549vw;
+
+    }
+
+    .inner-container2 {
+        width: 37.612vw;
+        gap: 1.137vw;
+    }
+
+    .row {
+        width: auto;
+        gap: 1.045vw;
+    }
+
+    .row img {
+        width: 18.421vw;
+    }
+
+    .container2 {
+
+        gap: 5.97vw;
+    }
+
+    .title {
+        width: 92.836vw;
+        gap: 1.194vw;
+    }
+
+    h2 {
+        font-size: 7.164vw;
+        line-height: 9.552vw;
+        letter-spacing: 4%;
+    }
+
+    .title-txt {
+        font-family: Gilroy-Medium;
+        font-size: 4.179vw;
+        letter-spacing: 2%;
+
+    }
+
+    .features {
+        width: 92.836vw;
+        gap: 3.582vw;
+    }
+
+    .list-of-features {
+        flex-direction: column;
+        gap: 3.582vw;
+    }
+
+    .list-box {
+        border: none;
+        border-radius: 0;
+        background-color: #14171F;
+
+    }
+
+    .list-txt {
+        font-size: 4.179vw;
+        /* line-height: 4.776vw; */
+    }
+
+    .more-details {
+        width: 92.836vw;
+        gap: 3.582vw;
+
+    }
+
+    button {
+        width: 92.836vw;
+        border-radius: 1.791vw;
+        padding: 3.582vw 21.493vw 3.582vw 21.493vw;
+        gap: 1.194vw;
+    }
+
+    .button-txt {
+        font-size: 4.776vw;
+        line-height: 7.164vw;
+    }
+
+    .more-details-txt {
+        font-size: 4.776vw;
+    }
+}

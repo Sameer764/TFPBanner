@@ -1,17 +1,17 @@
 export const data = [
     {
-        size: "477px",
+        size: "39.098vw",
         f1: "🏢 Learn in a Corporate Ecosystem",
         f2: "💰 Assured Paid Internships",
     },
 
     {
-        size: "429px",
+        size: "35.164vw",
         f1: "📚 In-depth Coursework",
         f2: "👥 In-Person Full-Time Learning",
     },
     {
-        size: "406px",
+        size: "33.279vw",
         f1: "👥 Tackle Live Industry Projects",
         f2: "🎓 Limited Seats Only",
 
