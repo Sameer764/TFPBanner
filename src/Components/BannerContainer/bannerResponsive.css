@@ -97,7 +97,8 @@
     .title-txt {
         font-family: Gilroy-Medium;
         font-size: 4.179vw;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
+
 
     }
 

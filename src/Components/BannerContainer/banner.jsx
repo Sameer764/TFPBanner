@@ -46,7 +46,7 @@ function BannerContainer() {
             <div className='container2'>
                 <div className='title'>
                     <h2>Tech Fellowship Program</h2>
-                    <p className='title-txt'>Launch Your Tech Career with Hands-On Experience in Real<br />Projects from Leading Companies</p>
+                    <p className='title-txt'>Launch Your Tech Career with Hands-On Experience in Real Projects from Leading Companies</p>
                 </div>
                 <div className='features'>
 
