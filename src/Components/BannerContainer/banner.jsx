@@ -2,6 +2,11 @@ import './banner.css'
 import './bannerResponsive.css'
 import { data } from './data'
 function BannerContainer() {
+    const handleClick = () => {
+        window.location.href = 'https://programmingpathshala.com/tech-fellowship-program';
+    };
+
+
 
     return (
         <div className='Banner-container'>
@@ -65,8 +70,8 @@ function BannerContainer() {
 
                 </div>
                 <div className='more-details'>
-                    <button >
-                        <p className='button-txt'>Known more</p>
+                    <button onClick={handleClick} >
+                        <p className='button-txt'>Know more</p>
                     </button>
                     <p className='more-details-txt'> Live the Code, Don’t Just Learn It!</p>
                 </div>
@@ -74,5 +79,4 @@ function BannerContainer() {
         </div>
     )
 }
-
 export default BannerContainer;

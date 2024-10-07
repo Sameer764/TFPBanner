@@ -135,14 +135,22 @@
         border-radius: 1.791vw;
         padding: 3.582vw 21.493vw 3.582vw 21.493vw;
         gap: 1.194vw;
+        cursor: pointer;
+
+
     }
 
     .button-txt {
         font-size: 4.776vw;
         line-height: 7.164vw;
+
     }
 
     .more-details-txt {
         font-size: 4.776vw;
     }
+
+
+
+
 }
