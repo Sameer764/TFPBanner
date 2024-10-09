@@ -22,10 +22,9 @@ function BannerContainer() {
                         </div>
                         <div className='inner-container1-logoTitle'>
                             <div className='logo'>
-                                <div className='polygon'>
+                                <img className="logo-img" src="/src/assets/img/LOGO.svg" />
 
-                                </div>
-                                <p className='logo-txt'> Programming Pathshala</p>
+
                             </div>
                             <h2 className="logo-heading">Tech  Fellowship Program</h2>
                         </div>
@@ -38,11 +37,13 @@ function BannerContainer() {
                         </div>
                         <div className='row'>
                             <img src='/src/assets/img/Frame 21074 (1).svg' />
-                            <img src='/src/assets/img/Frame 21074 (2).svg' />
+                            <img src='/src/assets/img/Frame 21076.svg' />
+
                         </div>
                         <div className='row'>
                             <img src='/src/assets/img/Frame 21075.svg' />
-                            <img src='/src/assets/img/Frame 21076.svg' />
+                            <img src='/src/assets/img/Frame 21074 (2).svg' />
+
                         </div>
                     </div>
                 </div>
