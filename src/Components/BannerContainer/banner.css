@@ -5,59 +5,52 @@
     }
 
     @font-face {
-        font-family: 'Gilroy-Regular ';
+        font-family: 'Gilroy-Regular';
         font-style: normal;
         font-weight: normal;
-        src: local('Gilroy-Regular '), url('/src/assets/font/Gilroy-Regular.woff') format('woff');
+        src: local('Gilroy-Regular'), url('./src/assets/font/Gilroy-Regular.woff') format('woff');
     }
 
     @font-face {
         font-family: 'Gilroy-Medium';
         font-style: normal;
         font-weight: normal;
-        src: local('Gilroy-Medium'), url('/src/assets/font/Gilroy-Medium.woff') format('woff');
+        src: local('Gilroy-Medium'), url('./src/assets/font/Gilroy-Medium.woff') format('woff');
     }
 
     @font-face {
-        font-family: 'Gilroy-Bold ';
+        font-family: 'Gilroy-Bold';
         font-style: normal;
         font-weight: normal;
-        src: local('Gilroy-Bold '), url('/src/assets/font/Gilroy-Bold.woff') format('woff');
+        src: local('Gilroy-Bold'), url('./src/assets/font/Gilroy-Bold.woff') format('woff');
     }
 
-    .Banner-container {
+    .ppa-landing-page-tfp-banner-container {
         display: flex;
         flex-direction: row;
         /* align-items: center; */
         justify-content: center;
         border-radius: 2.459vw;
-        padding: 2.459vw;
-        gap: 2.459vw;
+        padding: 2.778vw 1.389vw 2.778vw 2.778vw;
+        gap: 2.778vw;
         background-color: #14171F;
     }
 
-    .subcontainer {
+    .ppa-landing-page-tfp-container-right {
         display: flex;
-        border-radius: 1.639vw;
+        padding: 1.389vw;
         background: #292C33;
+        border-radius: 1.389vw;
+        gap: 2.431vw;
+        /* justify-content: space-between; */
     }
 
-    .container1 {
-        display: flex;
-        width: 45.082vw;
-        /* height: 440px; */
-        /* background-color: #292C33; */
-        /* margin-top: 1.639vw;
-        margin-left: 1.639vw; */
-        padding: 1.639vw;
-        justify-content: space-between;
-    }
-
-    .inner-container1 {
+    .ppa-landing-page-tfp-inner-container-right {
         display: flex;
         flex-direction: column;
-        width: 20.328vw;
+        /* width: 20.328vw; */
         gap: 3.279vw;
+        width: 19.583vw;
         /* height: 400px; */
         /* margin-top: 1.639vw;
         margin-left: 1.639vw; */
@@ -65,112 +58,77 @@
 
     }
 
-    /* .inner-contaier1-title {
-        display: flex;
-        flex-direction: column;
-        width: 19.672vw;
-        height: 280px;
-        gap: 3.279vw;
-
-    } */
-
-    .mode-of-class {
+    .ppa-landing-page-tfp-mode-of-class {
         display: flex;
         flex-direction: row;
-        row-gap: 0.328vw;
+        gap: 0.278vw;
         width: 12.131vw;
-        /* height: 28px; */
-
         border-radius: 0.492vw;
-        padding: 0.328vw 1.639vw 0.328vw 1.639vw;
+        padding: 0.556vw 1.389vw;
         background-color: #fde68a;
     }
 
-    .star-image {
+    .ppa-landing-page-tfp-star-image {
         width: 1.639vw;
     }
 
-    .mode-of-class-txt {
-        margin-top: 0.3vw;
-        /* line-height: 0.984vw; */
-        font-family: Gilroy-Medium;
+    .ppa-landing-page-tfp-mode-of-class-txt {
+        font-family: Gilroy-SemiBold;
+        font-size: 0.694vw;
         font-weight: 400;
-        font-size: 0.82vw;
+        line-height: 0.833vw;
         letter-spacing: 0.02em;
-        color: #d97706;
-        white-space: nowrap;
+        text-align: left;
+        color: #D97706;
     }
 
-    /* .image {
-        display: flexbox;
-        height: 20px;
-        margin-top: 0.328vw;
-        margin-left: 1.639vw;
-    } */
-
-
-    .inner-container1-logoTitle {
+    .ppa-landing-page-tfp-inner-container-right-logoTitle {
         display: flex;
         /* height: 17.377vw; */
         flex-direction: column;
         gap: 1.639vw;
     }
 
-    .logo {
+    /* .ppa-landing-page-tfp-logo {
         display: flex;
         flex-direction: row;
         width: 12.787vw;
-        /* height: 24px; */
-    }
+    } */
 
-    .logo-img {
+    .ppa-landing-page-tfp-logo-img {
         width: 12.787vw;
         height: 1.967vw;
     }
 
-    /* .logo-txt {
-        font-family: Gilroy-Medium;
+    .ppa-landing-page-tfp-logo-heading {
+        font-family: Gilroy-Bold;
+        font-size: 3.333vw;
         font-weight: 400;
-        font-size: 0.902vw;
-        line-height: 1.148vw;
-        color: #fafafa;
-        width: 10.328vw;
-        margin-top: 0.492vw;
-        margin-left: 2.377vw;
-        height: 14px;
-    } */
-
-    .logo-heading {
-        font-family: Gilroy-Medium;
-        font-size: 3.934vw;
-        font-weight: 400;
-        line-height: 3.934vw;
-        letter-spacing: 4%;
+        line-height: 3.889vw;
+        letter-spacing: 0.04em;
+        color: #F8FAFC;
     }
 
-    .inner-container2 {
+    .ppa-landing-page-tfp-inner-container-left {
         display: flex;
-        width: 20.328vw;
+        /* width: 20.328vw; */
         /* height: 400px; */
         /* margin-top: 1.639vw;
         margin-left: 1.639vw; */
-        gap: 0.611vw;
+        gap: 0.556vw;
         flex-direction: column;
     }
 
-    .row {
-
+    .ppa-landing-page-tfp-row {
         display: flex;
-        width: auto;
-        flex-direction: row;
-        gap: 0.561vw;
+        gap: 0.486vw;
     }
 
-    .row img {
-        width: 9.37vw;
+    .ppa-landing-page-tfp-row img {
+        width: 8.4vw;
     }
 
-    .container2 {
+    .ppa-landing-page-tfp-container-left {
         display: flex;
         width: 45.082vw;
         /* height: 440px; */
@@ -179,114 +137,101 @@
         gap: 1.639vw;
     }
 
-    .title {
+    .ppa-landing-page-tfp-title {
         display: flex;
         justify-content: center;
         width: 45.082vw;
         /* height: 116px; */
         flex-direction: column;
-        gap: 0.656vw;
+        gap: 0.556vw;
     }
 
-    h2 {
+    .ppa-landing-page-tfp-title-heading{
+        font-family: Gilroy-Bold;
+        font-size: 2.778vw;
         font-weight: 400;
-        font-size: 3.14vw;
-        color: #faf8fc;
-        font-family: Gilroy-Medium;
-        line-height: 4.262vw;
+        line-height: 3.611vw;
         letter-spacing: 0.04em;
-
-
+        text-align: left;
+        color: #F8FAFC;
     }
 
-    .title-txt {
-        font-family: Gilroy-Medium;
+    .ppa-landing-page-tfp-title-txt {
+        color: #F8FAFC;
+        font-family: Gilroy-Regular;
+        font-size: 1.389vw;
         font-weight: 400;
-        font-size: 1.639vw;
-        /* line-height: 1.148vw; */
+        line-height: 1.944vw;
         letter-spacing: 0.02em;
-        /* height: 56px; */
-        color: #faf8fc;
-
+        text-align: left;
     }
 
-    .features {
+    .ppa-landing-page-tfp-features {
         display: flex;
-        width: 39.59vw;
-        /* height: 168px; */
         gap: 0.984vw;
         flex-direction: column;
     }
 
-    .list-of-features {
+    .ppa-landing-page-tfp-list-of-features {
         display: flex;
         flex-direction: row;
-        /* height: 48px; */
-        width: 24.59vw;
         gap: 0.984vw;
 
     }
 
-    .list-box {
+    .ppa-landing-page-tfp-list-box {
         display: flex;
         border-radius: 2.623vw;
         gap: 0.656vw;
-        padding-top: 0.984vw;
-        padding-right: 1.967vw;
-        padding-bottom: 0.984vw;
-        padding-left: 1.967vw;
+        padding: 0.833vw 1.667vw;
         background-color: #292c33;
     }
 
-    .list-txt {
+    .ppa-landing-page-tfp-list-txt {
         font-family: Gilroy-Medium;
+        font-size: 1.11vw;
         font-weight: 400;
-        font-size: 1.148vw;
-        line-height: 1.967vw;
-        letter-spacing: 2%;
-        /* height: 24px; */
+        line-height: 1.667vw;
+        letter-spacing: 0.02em;
+        text-align: left;
         color: #faf8fc;
-        white-space: nowrap;
     }
 
-    .more-details {
+    .ppa-landing-page-tfp-more-details {
         display: flex;
         width: 41.393vw;
         /* height: 84px; */
-        gap: 1.639vw;
+        gap: 0.833vw;
         flex-direction: column;
     }
 
     button {
-        display: flex;
-        width: 19.59vw;
+        width: 16.597vw;
         /* height: 48px; */
         border-radius: 0.492vw;
         background-color: #3940A0;
-        padding-top: 0.984vw;
-        padding-right: 5.902vw;
-        padding-bottom: 0.984vw;
-        padding-left: 5.902vw;
+        padding: 0.833vw 0vw;
+        text-align: center;
         border: none;
-
+        text-align: center;
         cursor: pointer;
     }
 
-    .button-txt {
-
-        /* line-height: 1.967vw; */
-        font-family: Gilroy-Medium;
+    .ppa-landing-page-tfp-button-txt {
+        font-family: Gilroy-Bold;
+        font-size: 1.11vw;
         font-weight: 400;
-        font-size: 1.311vw;
-        letter-spacing: 2%;
-        color: #ffff;
+        line-height: 1.667vw;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
     }
 
-    .more-details-txt {
-        /* line-height: 1.967vw; */
+    .ppa-landing-page-tfp-more-details-txt {
         font-family: Gilroy-Medium;
+        font-size: 1.11vw;
         font-weight: 400;
-        font-size: 1.311vw;
-        letter-spacing: 2%;
-        color: #faf8fc
+        line-height: 1.667vw;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #F8FAFC;
     }

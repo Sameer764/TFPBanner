@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    .Banner-container {
+    .ppa-landing-page-tfp-Banner-container {
         flex-direction: column;
         border-radius: 5.97vw;
         padding: 3.582vw;
@@ -7,32 +7,32 @@
 
     }
 
-    .subcontainer {
+    .ppa-landing-page-tfp-subcontainer {
         width: 92.836vw;
         border-radius: 3.582vw;
     }
 
-    .container1 {
+    .ppa-landing-page-tfp-container1 {
         width: 86.397vw;
         margin-top: 3.054vw;
         margin-left: 3.054vw;
         justify-content: space-between;
     }
 
-    .inner-container1 {
+    .ppa-landing-page-tfp-inner-container1 {
         gap: 3.054vw;
         width: 43.045vw;
         /* height: 42.687vw; */
     }
 
-    .mode-of-class {
+    .ppa-landing-page-tfp-mode-of-class {
         width: 22.606vw;
         border-radius: 0.916vw;
         padding: 0.612vw 3.054vw 0.612vw 3.054vw;
         gap: 0.612vw;
     }
 
-    .mode-of-class-txt {
+    .ppa-landing-page-tfp-mode-of-class-txt {
         /* width: 14.328vw; */
         white-space: nowrap;
         font-size: 1.525vw;
@@ -40,17 +40,17 @@
         white-space: nowrap;
     }
 
-    .inner-container1-logoTitle {
+    .ppa-landing-page-tfp-inner-container1-logoTitle {
         width: 42.985vw;
         gap: 3.054vw;
     }
 
-    .logo {
+    .ppa-landing-page-tfp-logo {
         width: 23.812vw;
 
     }
 
-    .logo-txt {
+    .ppa-landing-page-tfp-logo-txt {
         font-size: 1.716vw;
         font-weight: 400;
         width: auto;
@@ -58,32 +58,32 @@
         margin-left: 4.454vw;
     }
 
-    .logo-heading {
+    .ppa-landing-page-tfp-logo-heading {
         font-size: 7.328vw;
         line-height: 7.549vw;
 
     }
 
-    .inner-container2 {
+    .ppa-landing-page-tfp-inner-container2 {
         width: 37.612vw;
         gap: 1.137vw;
     }
 
-    .row {
+    .ppa-landing-page-tfp-row {
         width: auto;
         gap: 1.045vw;
     }
 
-    .row img {
+    .ppa-landing-page-tfp-row img {
         width: 18.421vw;
     }
 
-    .container2 {
+    .ppa-landing-page-tfp-container2 {
 
         gap: 5.97vw;
     }
 
-    .title {
+    .ppa-landing-page-tfp-title {
         width: 92.836vw;
         gap: 1.194vw;
     }
@@ -94,7 +94,7 @@
         letter-spacing: 4%;
     }
 
-    .title-txt {
+    .ppa-landing-page-tfp-title-txt {
         font-family: Gilroy-Medium;
         font-size: 4.179vw;
         letter-spacing: 0.02em;
@@ -102,29 +102,29 @@
 
     }
 
-    .features {
+    .ppa-landing-page-tfp-features {
         width: 92.836vw;
         gap: 3.582vw;
     }
 
-    .list-of-features {
+    .ppa-landing-page-tfp-list-of-features {
         flex-direction: column;
         gap: 3.582vw;
     }
 
-    .list-box {
+    .ppa-landing-page-tfp-list-box {
         border: none;
         border-radius: 0;
         background-color: #14171F;
 
     }
 
-    .list-txt {
+    .ppa-landing-page-tfp-list-txt {
         font-size: 4.179vw;
         /* line-height: 4.776vw; */
     }
 
-    .more-details {
+    .ppa-landing-page-tfp-more-details {
         width: 92.836vw;
         gap: 3.582vw;
 
@@ -140,14 +140,14 @@
 
     }
 
-    .button-txt {
+    .ppa-landing-page-tfp-button-txt {
         margin-left: 12vw;
         font-size: 4.776vw;
         line-height: 7.164vw;
 
     }
 
-    .more-details-txt {
+    .ppa-landing-page-tfp-more-details-txt {
         font-size: 4.776vw;
     }
 
