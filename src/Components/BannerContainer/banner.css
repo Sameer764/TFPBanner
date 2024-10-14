@@ -28,8 +28,6 @@
     .ppa-landing-page-tfp-banner-container {
         display: flex;
         flex-direction: row;
-        /* align-items: center; */
-        justify-content: center;
         border-radius: 2.459vw;
         padding: 2.778vw 1.389vw 2.778vw 2.778vw;
         gap: 2.778vw;
@@ -157,6 +155,7 @@
     }
 
     .ppa-landing-page-tfp-title-txt {
+        width: 42vw;
         color: #F8FAFC;
         font-family: Gilroy-Regular;
         font-size: 1.389vw;
